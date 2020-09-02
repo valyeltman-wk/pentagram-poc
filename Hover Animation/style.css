@@ -1,0 +1,39 @@
+body {
+    background-color: #66CC66;
+}
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.cta {
+    position: relative;
+// background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+svg {
+    fill: none;
+    stroke: black;
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 338;
+    stroke-dashoffset: 338;
+    stroke-linecap: round;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% + 60px);
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: stroke-dashoffset 0s 0.2s, opacity 0.2s;
+    z-index: -1;
+}
+
+
+.cta:hover svg {
+    stroke-dashoffset: 0;
+    opacity: 1;
+    transition: opacity 0s, stroke-dashoffset 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
