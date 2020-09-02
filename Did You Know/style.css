@@ -28,6 +28,7 @@ body {
 .did-you-know svg {
     position: absolute;
     right: 0;
+    top: 100%
 }
 .german-example {
     margin-top: 300px;
