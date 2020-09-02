@@ -1,0 +1,45 @@
+body {
+    background-color: #FFFAF2;
+}
+.container-fluid, .poc-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.screenshot {
+    display: flex;
+    justify-content: center;
+}
+.screenshot img {
+    width: 30%;
+}
+.request-demo-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.request-demo svg:first-of-type {
+    position: absolute;
+    top: 0;
+    right: 25%;
+}
+a.cta {
+    background-color: #66CC66;
+    padding: 15px;
+}
+a.cta:before {
+    background-color: black;
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: 130px;
+}
+.cta:after {
+    background-color: black;
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    right: 0;
+    top: 30px;
+}
