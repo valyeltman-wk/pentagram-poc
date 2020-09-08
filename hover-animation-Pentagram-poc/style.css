@@ -1,0 +1,33 @@
+svg{
+    width:100%;
+    margin:auto;
+    /*   margin-top:40%; */
+    display:block;
+    cursor:pointer;
+}
+
+.container{
+    width:200px;
+    margin:auto;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+    text-transform:uppercase;
+    margin-top:100vh;
+    margin-bottom:100vh;
+    cursor:pointer;
+    color:purple;
+}
+
+ .cls-2{
+  display:none;
+}
+
+.cls-1{
+
+}
+
+@keyframes stroke-dashoffset {
+    0% { stroke-dashoffset: 100; }
+    100%{ stroke-dashoffset: 0; }
+}
