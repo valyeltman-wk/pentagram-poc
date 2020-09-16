@@ -22,9 +22,14 @@ body {
     background-color: #66CC66;
     padding: 30px 15px 15px 30px;
     border-bottom-left-radius: 30px;
-    width: 30%;
     float: right;
     z-index: 1;
+}
+
+@media screen and (min-width: 992px){
+    .request-demo {
+        width: 30%;
+    }
 }
 .request-demo svg:first-of-type {
     position: absolute;

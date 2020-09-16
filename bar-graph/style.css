@@ -1,0 +1,65 @@
+.path {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: dash 5s linear;
+}
+@keyframes dash {
+    to {
+        stroke-dashoffset: 100;
+    }
+}
+
+.inner-circle {
+    animation: spin 3s ease-out;
+    border: 1px solid red;
+    z-index: 3;
+    transform-origin: 50% 50%;
+}
+@keyframes spin {
+    from {
+        transform: rotate(180deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.fill-section {
+    animation: filling 5s ease-in-out;
+}
+@keyframes filling {
+    from {
+        fill: none;
+    }
+    to {
+        fill: #EB9C0A;
+    }
+}
+
+.bar-graph svg > line {
+    stroke: #ffffff;
+    stroke-width: 13;
+}
+
+svg > line.white-bar-1 {
+    stroke-dasharray: 40 40;
+    animation:2000ms cubic-bezier(0.32, 0, 0.67, 0) 100ms 1 forwards grow1;
+}
+
+@keyframes grow1 {
+    0% { stroke-dasharray: 40 80; }
+    50% { stroke-dasharray: 80 150;}
+    100% { stroke-dasharray: 200 200;
+    }
+}
+
+svg > line.white-bar-2 {
+    stroke-dasharray: 20 80;
+    animation: 1600ms cubic-bezier(0.81, 0.02, 0.99, 0.96) 500ms 1 forwards grow1;
+}
+
+@keyframes grow2 {
+    /*0% { stroke-dasharray: 50 150; }*/
+    /*75% { stroke-dasharray: 150 150;}*/
+    /*100% { stroke-dasharray: 200 200;*/
+    /*}*/
+}
