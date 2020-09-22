@@ -76,3 +76,9 @@ h4 {
 .poc-lg {
     padding: 200px 100px;
 }
+.container-90 .content-container {
+    border-radius: 0 0 50px 50px;
+    z-index: 1;
+    margin-bottom: -50px;
+    position: relative;
+}
