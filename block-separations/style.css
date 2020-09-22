@@ -28,3 +28,37 @@ h4 {
     margin-top: -50px;
     border-radius: 50px 50px 0 0;
 }
+.bg-beige {
+    background-color: #FCF4E8;
+}
+.top-tab-75 {
+    padding: 50px;
+    border-radius: 0 50px 0 0;
+}
+
+.bot-tab-75 {
+    padding: 50px;
+    border-radius: 0 0 0 50px;
+}
+.content-container {
+    padding: 100px;
+}
+.content-container h4 {
+    text-align: left;
+    color: #000000;
+    font-size: 28px;
+}
+.content-container .col-3 {
+    padding: 20px;
+}
+.content-top {
+    margin: 100px 0;
+}
+
+.btn-white {
+    background-color: #ffffff;
+    color: #231F20;
+    padding: 16px;
+    border-radius: 20px;
+    font-size: 24px;
+}
