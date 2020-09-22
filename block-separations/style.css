@@ -1,6 +1,8 @@
-.top, .bottom, .top-v2, .bottom-v2 {
-    background-color: #FCF4E8;
+.top-v2, .bottom-v2 {
     padding: 100px;
+}
+.bottom-v2 {
+    background-color: #FCF4E8;
 }
 .top {
     border-radius: 0 0 50px 50px;
@@ -10,7 +12,7 @@
 }
 .middle {
     background-color: #0074E8;
-    padding: 150px;
+    padding: 200px 150px;
     z-index: -2;
 }
 h4 {
@@ -24,6 +26,8 @@ h4 {
 }
 .bottom {
     z-index: 1;
+    background-color: #ffffff;
+    padding: 200px 100px;
     position: relative;
     margin-top: -50px;
     border-radius: 50px 50px 0 0;
@@ -40,8 +44,15 @@ h4 {
     padding: 50px;
     border-radius: 0 0 0 50px;
 }
+.top-tab-90 {
+    padding: 50px;
+    border-radius: 50px 0 0 0;
+}
 .content-container {
-    padding: 100px;
+    padding: 0 100px;
+}
+.content-container .col-md-3 {
+    margin-bottom: 48px;
 }
 .content-container h4 {
     text-align: left;
@@ -52,7 +63,7 @@ h4 {
     padding: 20px;
 }
 .content-top {
-    margin: 100px 0;
+    margin-bottom: 100px;
 }
 
 .btn-white {
@@ -61,4 +72,13 @@ h4 {
     padding: 16px;
     border-radius: 20px;
     font-size: 24px;
+}
+.poc-lg {
+    padding: 200px 100px;
+}
+.container-90 .content-container {
+    border-radius: 0 0 50px 50px;
+    z-index: 1;
+    margin-bottom: -50px;
+    position: relative;
 }
