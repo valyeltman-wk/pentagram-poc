@@ -1,0 +1,128 @@
+
+.top {
+    border-radius: 0 0 50px 50px;
+    z-index: 1;
+    margin-bottom: -50px;
+    position: relative;
+}
+.middle {
+    background-color: #0074E8;
+    padding: 200px 150px;
+    z-index: -2;
+}
+h4 {
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.bottom {
+    z-index: 1;
+    background-color: #ffffff;
+    padding: 200px 100px;
+    position: relative;
+    margin-top: -50px;
+    border-radius: 50px 50px 0 0;
+}
+.bg-beige {
+    background-color: #FCF4E8;
+}
+.top-tab-25, .top-tab-75 {
+    padding: 50px;
+    border-radius: 0 50px 0 0;
+}
+
+.bot-tab-75 {
+    padding: 50px;
+    border-radius: 0 0 0 50px;
+}
+.content-container {
+    padding: 0 100px;
+}
+.content-container .col-md-3 {
+    margin-bottom: 48px;
+}
+.content-container h4 {
+    text-align: left;
+    color: #000000;
+    font-size: 28px;
+}
+.content-container .col-3 {
+    padding: 20px;
+}
+.content-top {
+    margin-bottom: 100px;
+}
+.container-90 .content-top {
+    margin-bottom: 0;
+    padding: 100px;
+}
+
+.btn-white {
+    background-color: #ffffff;
+    color: #231F20;
+    padding: 16px;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+.container-90 .content-container {
+    border-radius: 0 0 50px 50px;
+    z-index: 1;
+    margin-bottom: -50px;
+    position: relative;
+}
+.container-fluid.container-90, .right-col {
+    padding-right: 0;
+}
+.img-container {
+    margin: 50px 0 100px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.img-container img {
+    border-radius: 48px 0 0 48px;
+}
+
+.img-container-left {
+    display: flex;
+    justify-content: center;
+}
+.complex-grid {
+    padding-right: 0;
+    margin-right: 0;
+}
+.left-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.convo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 140px;
+    margin-right: -50px;
+    z-index: 1;
+}
+.right-col {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.bottom-svg {
+    margin: 12px 0 0 -50px;
+}
+
+@media only screen and (min-width: 992px) {
+    .img-container-left {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .img-container-left img {
+        margin-right: -100px;
+    }
+    .right-col {
+        flex-direction: row;
+    }
+}
