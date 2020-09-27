@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="833fb454-ae02-406f-86db-800dc45f1e2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image-layouts/images/solve-big-problems.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/image-layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-layouts/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/image-layouts/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,22 +23,22 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6043708">
+    <splitter split-orientation="horizontal" split-proportion="0.55698925">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/image-layouts/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="485">
-                  <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+                <state relative-caret-position="74">
+                  <caret line="80" column="49" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="381">
+                <state relative-caret-position="1320">
                   <caret line="55" column="100" selection-start-line="55" selection-start-column="100" selection-end-line="55" selection-end-column="100" />
                 </state>
               </provider>
@@ -44,12 +47,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/image-layouts/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="470">
-                  <caret line="126" column="21" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
+                <state relative-caret-position="2568">
+                  <caret line="107" column="30" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -60,7 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>poc cont</find>
       <find>cls-1</find>
       <find>end of life</find>
       <find>ul</find>
@@ -89,6 +91,8 @@
       <find>content-top</find>
       <find>poc-lg</find>
       <find>bottom</find>
+      <find>col-right</find>
+      <find>border</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,9 +138,9 @@
         <option value="$PROJECT_DIR$/full-width-grid-layout/style.css" />
         <option value="$PROJECT_DIR$/section-image-layout/index.html" />
         <option value="$PROJECT_DIR$/full-width-grid-layout/index.html" />
-        <option value="$PROJECT_DIR$/image-layouts/index.html" />
-        <option value="$PROJECT_DIR$/image-layouts/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/image-layouts/style.css" />
+        <option value="$PROJECT_DIR$/image-layouts/index.html" />
       </list>
     </option>
   </component>
@@ -230,12 +234,13 @@
       <workItem from="1600190523451" duration="34077000" />
       <workItem from="1600701657302" duration="3875000" />
       <workItem from="1600709789991" duration="24195000" />
-      <workItem from="1601061967689" duration="2745000" />
+      <workItem from="1601061967689" duration="7826000" />
+      <workItem from="1601220828292" duration="1712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120915000" />
+    <option name="totallyTimeSpent" value="127708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1680" height="978" extended-state="0" />
@@ -247,14 +252,14 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Learn" order="4" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.14652015" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.14835165" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="RNConsole" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.28103837" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.28103837" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.30416667" />
       <window_info anchor="bottom" id="Run" order="8" />
@@ -488,24 +493,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="55" column="100" selection-start-line="55" selection-start-column="100" selection-end-line="55" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/image-layouts/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="126" column="21" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
+        <state relative-caret-position="2568">
+          <caret line="107" column="30" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image-layouts/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="55" column="100" selection-start-line="55" selection-start-column="100" selection-end-line="55" selection-end-column="100" />
+        <state relative-caret-position="74">
+          <caret line="80" column="49" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
         </state>
       </provider>
     </entry>

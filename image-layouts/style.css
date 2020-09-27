@@ -36,7 +36,7 @@ h4 {
 }
 .container-90 .content-top {
     margin-bottom: 0;
-    padding: 100px;
+    padding: 100px 100px 100px 0;
 }
 
 .btn-white {
@@ -105,6 +105,7 @@ h4 {
     }
     .right-col {
         flex-direction: row;
+        margin-bottom: -215px;
     }
 }
 
@@ -124,6 +125,14 @@ h4 {
     margin: 48px 0;
     width: 100%;
 }
-.poc-filler-content p {
-    width: 80%;
+
+.poc-img-full-container-off-grid {
+    padding: 48px 0;
+}
+.poc-img-full-container-off-grid img {
+    width: 100%;
+}
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
 }
