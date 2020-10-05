@@ -1,0 +1,37 @@
+.configurator-container {
+    background-color: #FCF4E8;
+}
+
+.btn {
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+
+.btn.btn-blue {
+    background-color: #0074E8;
+    color: #ffffff;
+}
+
+.blue {
+    color: #0074E8;
+}
+
+#dropdownMenuButton.dropdown-toggle::after {
+    color: #0074E8;
+}
+
+.purple {
+    color: #A14EBF;
+}
+
+#dropdownMenuButton2.dropdown-toggle::after {
+     color: #A14EBF;
+}
+
+.orange {
+    color: #FF6633;
+}
+
+#dropdownMenuButton3.dropdown-toggle::after {
+    color: #FF6633;
+}

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="833fb454-ae02-406f-86db-800dc45f1e2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/image-layouts/images/solve-big-problems.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configurator/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configurator/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/image-layouts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-layouts/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/image-layouts/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,23 +23,23 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.55698925">
+    <splitter split-orientation="horizontal" split-proportion="0.65646005">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/image-layouts/index.html">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/configurator/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="74">
-                  <caret line="80" column="49" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
+                <state relative-caret-position="375">
+                  <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1320">
-                  <caret line="55" column="100" selection-start-line="55" selection-start-column="100" selection-end-line="55" selection-end-column="100" />
+                <state relative-caret-position="264">
+                  <caret line="58" column="86" selection-start-line="58" selection-start-column="86" selection-end-line="58" selection-end-column="86" />
                 </state>
               </provider>
             </entry>
@@ -49,10 +49,10 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/image-layouts/style.css">
+            <entry file="file://$PROJECT_DIR$/configurator/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2568">
-                  <caret line="107" column="30" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
+                <state relative-caret-position="464">
+                  <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -63,7 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cls-1</find>
       <find>end of life</find>
       <find>ul</find>
       <find>arial</find>
@@ -93,6 +92,7 @@
       <find>bottom</find>
       <find>col-right</find>
       <find>border</find>
+      <find>992</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,17 +138,19 @@
         <option value="$PROJECT_DIR$/full-width-grid-layout/style.css" />
         <option value="$PROJECT_DIR$/section-image-layout/index.html" />
         <option value="$PROJECT_DIR$/full-width-grid-layout/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/image-layouts/style.css" />
         <option value="$PROJECT_DIR$/image-layouts/index.html" />
+        <option value="$PROJECT_DIR$/configurator/index.html" />
+        <option value="$PROJECT_DIR$/configurator/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="978" />
+    <option name="x" value="2042" />
+    <option name="y" value="-83" />
+    <option name="width" value="1558" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -156,6 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,45 +169,43 @@
             <path>
               <item name="Pentegram-POC" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pentegram-POC" type="462c0819:PsiDirectoryNode" />
-              <item name="image-layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="configurator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Pentegram-POC" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pentegram-POC" type="462c0819:PsiDirectoryNode" />
-              <item name="image-layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="did-you-know" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/image-layouts/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/image-layouts/images" />
+      <recent name="$PROJECT_DIR$/bar-graph" />
+      <recent name="$PROJECT_DIR$/scroll-animation" />
+      <recent name="$PROJECT_DIR$/hover-animation-Pentagram-poc" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/image-layouts/images" />
       <recent name="$PROJECT_DIR$/section-image-layout/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Request Demo/images" />
       <recent name="$PROJECT_DIR$/Did You Know/images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/image-layouts/images" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/bar-graph" />
-      <recent name="$PROJECT_DIR$/scroll-animation" />
-      <recent name="$PROJECT_DIR$/hover-animation-Pentagram-poc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -235,15 +236,16 @@
       <workItem from="1600701657302" duration="3875000" />
       <workItem from="1600709789991" duration="24195000" />
       <workItem from="1601061967689" duration="7826000" />
-      <workItem from="1601220828292" duration="1712000" />
+      <workItem from="1601220828292" duration="5928000" />
+      <workItem from="1601934620766" duration="1433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127708000" />
+    <option name="totallyTimeSpent" value="133357000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="23" width="1680" height="978" extended-state="0" />
+    <frame x="2042" y="-83" width="1558" height="967" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -252,14 +254,14 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Learn" order="4" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.14835165" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.116754614" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="RNConsole" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.28103837" />
+      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.43542856" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.30416667" />
       <window_info anchor="bottom" id="Run" order="8" />
@@ -311,13 +313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/did-you-know/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="50" column="18" selection-end-line="71" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -493,24 +488,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/image-layouts/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="55" column="100" selection-start-line="55" selection-start-column="100" selection-end-line="55" selection-end-column="100" />
+        <state relative-caret-position="74">
+          <caret line="80" column="49" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image-layouts/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2568">
-          <caret line="107" column="30" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
+        <state relative-caret-position="384">
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image-layouts/index.html">
+    <entry file="file://$PROJECT_DIR$/did-you-know/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="80" column="49" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
+        <state relative-caret-position="304">
+          <caret line="58" column="57" selection-end-line="71" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configurator/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configurator/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="58" column="86" selection-start-line="58" selection-start-column="86" selection-end-line="58" selection-end-column="86" />
         </state>
       </provider>
     </entry>
