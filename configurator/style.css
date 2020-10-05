@@ -16,7 +16,18 @@
     color: #0074E8;
 }
 
+.dropdown-menu a {
+    color: #ffffff;
+}
+
 #dropdownMenuButton.dropdown-toggle::after {
+    color: #0074E8;
+}
+.dropdown-blue .dropdown-menu {
+    background-color: #0074E8;
+}
+
+.dropdown-blue .dropdown-menu a:hover {
     color: #0074E8;
 }
 
@@ -25,13 +36,28 @@
 }
 
 #dropdownMenuButton2.dropdown-toggle::after {
-     color: #A14EBF;
+    color: #A14EBF;
+}
+.dropdown-purple .dropdown-menu {
+    background-color: #A14EBF;
+}
+
+.dropdown-purple .dropdown-menu a:hover {
+    color: #A14EBF;
 }
 
 .orange {
     color: #FF6633;
 }
 
+
 #dropdownMenuButton3.dropdown-toggle::after {
+    color: #FF6633;
+}
+.dropdown-orange .dropdown-menu {
+    background-color: #FF6633;
+}
+
+.dropdown-orange .dropdown-menu a:hover {
     color: #FF6633;
 }
