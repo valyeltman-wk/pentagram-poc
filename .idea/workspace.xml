@@ -21,14 +21,14 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.51829726">
+    <splitter split-orientation="horizontal" split-proportion="0.5541579">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/configurator/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="320">
-                  <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+                <state relative-caret-position="185">
+                  <caret line="80" column="65" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
                 </state>
               </provider>
             </entry>
@@ -49,8 +49,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/configurator/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="344">
-                  <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+                <state relative-caret-position="185">
+                  <caret line="84" column="56" selection-start-line="84" selection-start-column="56" selection-end-line="84" selection-end-column="56" />
                 </state>
               </provider>
             </entry>
@@ -61,8 +61,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>end of life</find>
-      <find>ul</find>
       <find>arial</find>
       <find>logo</find>
       <find>transform</find>
@@ -91,6 +89,8 @@
       <find>col-right</find>
       <find>border</find>
       <find>992</find>
+      <find>transparent</find>
+      <find>focus</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,15 +139,15 @@
         <option value="$PROJECT_DIR$/image-layouts/style.css" />
         <option value="$PROJECT_DIR$/image-layouts/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/configurator/style.css" />
         <option value="$PROJECT_DIR$/configurator/index.html" />
+        <option value="$PROJECT_DIR$/configurator/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2042" />
-    <option name="y" value="-83" />
-    <option name="width" value="1558" />
+    <option name="x" value="92" />
+    <option name="y" value="150" />
+    <option name="width" value="1650" />
     <option name="height" value="967" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -235,15 +235,15 @@
       <workItem from="1600709789991" duration="24195000" />
       <workItem from="1601061967689" duration="7826000" />
       <workItem from="1601220828292" duration="5928000" />
-      <workItem from="1601934620766" duration="2203000" />
+      <workItem from="1601934620766" duration="16125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134127000" />
+    <option name="totallyTimeSpent" value="148049000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2042" y="-83" width="1558" height="967" extended-state="0" />
+    <frame x="92" y="150" width="1650" height="967" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -252,14 +252,14 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Learn" order="4" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.116754614" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.110074624" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="RNConsole" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.43542856" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.27885714" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.30416667" />
       <window_info anchor="bottom" id="Run" order="8" />
@@ -514,17 +514,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configurator/style.css">
+    <entry file="file://$PROJECT_DIR$/configurator/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+        <state relative-caret-position="185">
+          <caret line="80" column="65" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configurator/index.html">
+    <entry file="file://$PROJECT_DIR$/configurator/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+        <state relative-caret-position="185">
+          <caret line="84" column="56" selection-start-line="84" selection-start-column="56" selection-end-line="84" selection-end-column="56" />
         </state>
       </provider>
     </entry>

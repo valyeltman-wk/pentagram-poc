@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,9 +21,66 @@
         </div>
     </div>
 </div>
-<div class="container configurator-container my-4">
+
+<div class="container-fluid configurator-container my-4">
     <div class="row">
-        <div class="col-12 my-4">
+        <div class="col">
+            <h2 class="text-center my-4">Select</h2>
+        </div>
+        <div class="col-10 offset-2 my-4">
+            <div class="select1">
+                <label for="title">I'm a</label>
+                <select id="title" name="title">
+                    <option value="">e.g. Data Junkie</option>
+                    <option value="Financial Reporting">Financial Reporting</option>
+                    <option value="SEC Reporting">SEC Reporting</option>
+                    <option value="Risk Management">Risk Management</option>
+                    <option value="Lead Tracking">Lead Tracking</option>
+                    <option value="KPI Tracking">KPI Tracking</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-10 offset-2 my-4">
+            <div class="select2">
+                <label for="working">working in a</label>
+                <select id="working" name="field" id="working">
+                    <option value="">e.g. Customer Service</option>
+                    <option value="Financial Reporting">Financial Reporting</option>
+                    <option value="SEC Reporting">SEC Reporting</option>
+                    <option value="Risk Management">Risk Management</option>
+                    <option value="Lead Tracking">Lead Tracking</option>
+                    <option value="KPI Tracking">KPI Tracking</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-10 offset-2 my-4">
+            <div class="select3">
+                <label for="doing-lots-of">doing lots of</label>
+
+                <select id="doing-lots-of" name="doing-lots-of" id="doing-lots-of">
+                    <option value="Copy and Pasting">e.g. copy and pasting</option>
+                    <option value="Financial Reporting">Financial Reporting</option>
+                    <option value="SEC Reporting">SEC Reporting</option>
+                    <option value="Risk Management">Risk Management</option>
+                    <option value="Lead Tracking">Lead Tracking</option>
+                    <option value="KPI Tracking">KPI Tracking</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-10 offset-2 my-4">
+            <button class="btn btn-blue">
+                Go
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid configurator-container my-4">
+    <div class="row">
+        <div class="col">
+            <h2 class="text-center my-4">Can we add to a bootstrap dropdown?</h2>
+        </div>
+        <div class="col-10 offset-2 my-4">
             <div class="dropdown dropdown-blue">I'm a
                 <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span class="blue">eg.Data Junkie</span>
@@ -33,7 +92,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 my-4">
+        <div class="col-10 offset-2 my-4">
             <div class="dropdown dropdown-purple">working in a
                 <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span class="purple">eg.Customer Service</span>
@@ -45,7 +104,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 my-4">
+        <div class="col-10 offset-2 my-4">
             <div class="dropdown dropdown-orange">doing lots of
                 <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span class="orange">eg.copy and pasting</span>
@@ -57,13 +116,21 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 my-4">
+        <div class="col-10 offset-2 my-4">
             <button class="btn btn-blue">
                 Go
             </button>
         </div>
     </div>
 </div>
+
+<script>
+    $("#doing-lots-of").change(function() {
+        var optionValue = $(this).val();
+        var url = window.location.href.split("?")[0];
+        window.location = url + "?" + optionValue;
+    });
+</script>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

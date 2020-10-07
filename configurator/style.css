@@ -1,5 +1,6 @@
 .configurator-container {
     background-color: #FCF4E8;
+    font-weight: 700;
 }
 
 .btn {
@@ -14,6 +15,7 @@
 
 .blue {
     color: #0074E8;
+    font-weight: 700;
 }
 
 .dropdown-menu a {
@@ -33,6 +35,7 @@
 
 .purple {
     color: #A14EBF;
+    font-weight: 700;
 }
 
 #dropdownMenuButton2.dropdown-toggle::after {
@@ -48,8 +51,8 @@
 
 .orange {
     color: #FF6633;
+    font-weight: 700;
 }
-
 
 #dropdownMenuButton3.dropdown-toggle::after {
     color: #FF6633;
@@ -60,4 +63,86 @@
 
 .dropdown-orange .dropdown-menu a:hover {
     color: #FF6633;
+}
+
+/*Select - Round 2*/
+
+select, select:focus, select:active {
+    padding: 16px;
+    border-radius: 16px;
+    border: none;
+    font-weight: 700;
+    border: none;
+    -webkit-appearance: none;
+    appearance: none;
+    outline-color: none;
+}
+
+select#title {
+    color: #0074E8;
+    width: 20%;
+}
+select#title:focus, select#working, select#doing-lots-of {
+    outline: none;
+}
+select#working {
+    color: #A14EBF;
+}
+select#doing-lots-of {
+    color: #FF6633;
+}
+
+.select1 {
+    position: relative;
+}
+.select1:after {
+    content: '';
+    bottom: 45%;
+    left: 270px;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    border-top: .3em solid #0074E8;
+    position: absolute;
+    pointer-events: none;
+}
+
+select#working {
+    color: #A14EBF;
+    width: 23%;
+}
+
+.select2 {
+    position: relative;
+}
+.select2:after {
+    content: '';
+    bottom: 45%;
+    left: 375px;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    border-top: .3em solid #A14EBF;
+    position: absolute;
+    pointer-events: none;
+}
+
+select#doing-lots-of {
+    color: #FF6633;
+    width: 23%;
+}
+
+.select3 {
+    position: relative;
+}
+.select3:after {
+    content: '';
+    bottom: 45%;
+    left: 375px;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    border-top: .3em solid #FF6633;
+    position: absolute;
+    pointer-events: none;
 }
